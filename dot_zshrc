@@ -1,8 +1,0 @@
-source $(brew --prefix)/opt/antidote/share/antidote/antidote.zsh
-antidote load
-antidote load < ~/.zsh_plugins.txt
-
-eval "$(starship init zsh)"
-export PATH="/opt/homebrew/opt/llvm/bin:$PATH"
-
-export STM32CubeMX_PATH=/Applications/STMicroelectronics/STM32CubeMX.app/Contents/Resources
